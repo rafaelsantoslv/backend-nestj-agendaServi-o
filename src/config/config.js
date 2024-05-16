@@ -1,10 +1,10 @@
 module.exports = {
-    dialect: 'postgres',
+    dialect: 'mariadb',
     host: 'localhost',
-    port: 5432,
+    port: 3306,
     username: 'root',
-    password: '123456',
-    database: 'carAPI',
+    password: '',
+    database: 'reservasAPI',
     autoLoadModels: true,
     synchronize: true,
   };
